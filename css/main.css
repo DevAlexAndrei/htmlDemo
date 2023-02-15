@@ -1,12 +1,24 @@
 /*fonts!!!*/
 
+@font-face {
+  font-family: Voltaire-Regular;
+  src: url(Voltaire-Regular.ttf)
+}
+@font-face {
+  font-family: Park-Lane;
+  src: url("Park Lane NF.ttf");
 
+}
 
+html {font-family: Voltaire-Regular, "Courier 10 Pitch", sans-serif;
+      color: #ffb35d;}
 
-body {background: #fff18a;}
+body {background: #000000;
+      }
 
 /*big red letters!!!*/
-h2 {color: #ff1f28;}
+h2 {color: #ffb35d;
+    font-family: Park-Lane;}
 
 td {background-color: #ff8900;
   color: #55069a;

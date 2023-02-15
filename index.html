@@ -15,7 +15,7 @@ an organized approach-->
   <meta property="og:url" content="">
   <meta property="og:image" content="">
 -->
-  <link rel="manifest" href="site.webmanifest">
+  <!--<link rel="manifest" href="site.webmanifest">-->
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
@@ -36,7 +36,15 @@ an organized approach-->
       <input id="Item" type="text" name="Item" value="bread" required/>
 
       <label for = "store"> Store: </label>
-      <input id="store" type="text" name="store" value="Aldi"  required/>
+      <select id="store"  name="store">
+        <option value="Aldi">Aldi</option>
+        <option value="Walmart">Walmart</option>
+        <option value="SS">Stop & Shop</option>
+        <option value="TJ">Trader Joe's</option>
+
+        <option value="WF">Whole Foods</option>
+        <option value="BigY">BigY</option>
+      </select>
 
       <br>
       <input id="Add" type="submit" name="submit" value="Add"/>
