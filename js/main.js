@@ -3,8 +3,8 @@
   let ab = document.querySelector("#Add");
   ab.addEventListener("click", addRow);
 
-  var emailH = document.getElementById("Email"); //this is null on non-reg page
-  emailH.addEventListener("focusout", check);
+ /* var emailH = document.getElementById("Email"); //this is null on non-reg page
+  emailH.addEventListener("focusout", check);*/
 
   //table is hardcode cuz only one table
 var itemArr = [];
