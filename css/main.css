@@ -18,20 +18,32 @@ body {background: #000000;
 
 /*big red letters!!!*/
 h2 {color: #ffb35d;
-    font-family: Park-Lane;}
+    font-family: Park-Lane, Verdana, sans-serif;}
 
-td {background-color: #ff8900;
+#table {position: absolute; top: 250px; left: 75px;}
+
+td {background-color: #ffb35d;
   color: #55069a;
-  text-align: right;}
+  text-align: center;}
+th {height: 30px; width: 100px;}
 
 /*underscore 2 refers to "page 2 styles", for placement, will be replaced"*/
 #putMeInMiddle {position: absolute; left: 100px; top:50px;}
-#list_2 {position: absolute; left: 50px; top:120px;}
+
 #nav {position: absolute; left: 100px; top: 500px;}
 #title {position: absolute; left: 50px; top: 50px;}
-#listos_2 {position: absolute; left: 450px; top: 50px;}
+
 
 a:visited {color: red;}
 a:hover {color: darkolivegreen;}
 a {color: green;}
-a:active {color: coral}
+a:active {color: coral;}
+
+
+/*
+morePage2Stuff*/
+#list_2 {position: absolute; left: 50px; top:120px;}
+#listos_2 {position: absolute; left: 450px; top: 50px;}
+
+
+.storeImg {height: 21px; width:21px;}

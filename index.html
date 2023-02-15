@@ -21,7 +21,7 @@ an organized approach-->
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
-
+  <script src="js/main.js" type="text/javascript" defer></script>
   <meta name="theme-color" content="#fafafa">
 </head>
 
@@ -34,23 +34,43 @@ an organized approach-->
     <form>
       <label for = "Item">New Item:</label>
       <input id="Item" type="text" name="Item" value="bread" required/>
-
+      <label for = "Qty">Qty:</label>
+      <input id="Qty" type="number" name="Qty" value="0" size="3" maxlength="3"/>
       <label for = "store"> Store: </label>
       <select id="store"  name="store">
         <option value="Aldi">Aldi</option>
         <option value="Walmart">Walmart</option>
-        <option value="SS">Stop & Shop</option>
-        <option value="TJ">Trader Joe's</option>
+        <option value="Stop & Shop">Stop & Shop</option>
+        <option value="Trader Joe's">Trader Joe's</option>
 
-        <option value="WF">Whole Foods</option>
+        <option value="Whole Foods">Whole Foods</option>
         <option value="BigY">BigY</option>
       </select>
 
       <br>
-      <input id="Add" type="submit" name="submit" value="Add"/>
+      <input id="Add" type="button" name="add" value="Add"/>
+
 
 
     </form>
+  </div>
+    <br>
+
+<div id="tableCont">
+  <table id="table">
+    <thead>
+    <tr>
+      <th>  ?  </th>
+      <th> Items </th>
+      <th> Store </th>
+      <th> Qty </th>
+    </tr>
+    </thead>
+  </table>
+</div>
+
+
+
   </div>
     <div id="nav">
     <a href="page2.html">Saved Lists</a>
