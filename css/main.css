@@ -1,0 +1,25 @@
+/*fonts!!!*/
+
+
+
+
+body {background: #fff18a;}
+
+/*big red letters!!!*/
+h2 {color: #ff1f28;}
+
+td {background-color: #ff8900;
+  color: #55069a;
+  text-align: right;}
+
+/*underscore 2 refers to "page 2 styles", for placement, will be replaced"*/
+#putMeInMiddle {position: absolute; left: 100px; top:50px;}
+#list_2 {position: absolute; left: 50px; top:120px;}
+#nav {position: absolute; left: 100px; top: 500px;}
+#title {position: absolute; left: 50px; top: 50px;}
+#listos_2 {position: absolute; left: 450px; top: 50px;}
+
+a:visited {color: red;}
+a:hover {color: darkolivegreen;}
+a {color: green;}
+a:active {color: coral}
